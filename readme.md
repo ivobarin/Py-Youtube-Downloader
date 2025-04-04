@@ -20,11 +20,12 @@ Ensure you have the following tools and libraries installed before using the app
   - `tkinter` (standard library)
 - **ffmpeg**: Required for processing and converting video/audio files.
 
-## Installation
+## Installation for Windows
 
-### 1. Install ffmpeg
+### 1. Install ffmpeg 
+Run the `setupFFmpeg.bat` file to automatically install ffmpeg. This script will download the latest version of ffmpeg for Windows, extract it, and configure your system's PATH environment variable to include the ffmpeg `bin` directory. No manual steps are required.
 
-> For a step-by-step guide, you can watch this [VIDEO TUTORIAL](https://youtu.be/JR36oH35Fgg?si=kCmyZ2JoZU-_WT4n) or follow the instructions below:
+> Alternatively, you can set up ffmpeg manually. For detailed instructions, you can watch this [video tutorial](https://youtu.be/JR36oH35Fgg?si=kCmyZ2JoZU-_WT4n) or follow the steps outlined below:
 
 1. Visit the official [FFmpeg download page](https://ffmpeg.org/download.html).
 2. Select the "Windows" option and download the latest **build by BtbN** (e.g., `ffmpeg-master-latest-win64-gpl.zip`).
